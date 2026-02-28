@@ -1,4 +1,7 @@
-# 🏥 FHIR Data Pipeline & Analytics Dashboard
+DISCLAMER: THIS PROJECT USES SYNTHETIC DATA. NO REAL PATIENT INFORMATION IS INCLUDED.
+
+
+# FHIR Data Pipeline & Analytics Dashboard
 
 A complete end-to-end health informatics project that downloads, parses, stores, and visualizes synthetic FHIR (Fast Healthcare Interoperability Resources) data. Built with Python, SQLite, and Streamlit.
 
@@ -6,7 +9,7 @@ A complete end-to-end health informatics project that downloads, parses, stores,
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates production-level skills in healthcare data engineering and analytics:
 
@@ -16,9 +19,9 @@ This project demonstrates production-level skills in healthcare data engineering
 - **Interactive Dashboard**: 5-page Streamlit app with enhanced Plotly animations
 - **Data Scale**: 555 patients, 215K observations, 28K encounters, 24K prescriptions, 17K conditions
 
-## 🎯 Key Features
+## Key Features
 
-### 📊 Analytics Dashboard Pages
+### Analytics Dashboard Pages
 
 1. **Population Overview** - Age/gender pyramids, disease prevalence, demographic insights
 2. **Clinical Utilization** - Encounter patterns, high utilizers, seasonal trends
@@ -26,7 +29,7 @@ This project demonstrates production-level skills in healthcare data engineering
 4. **Lab Analytics** - Normal/abnormal tracking, patient trajectories over time
 5. **Risk Predictions** - 30-day readmission rates (40%!), complexity scoring
 
-### ✨ Enhanced Animations
+### Enhanced Animations
 
 - **Cumulative disease burden** - Watch conditions stack as population ages
 - **Encounter bubble chart** - Seasonal patterns evolving year-by-year
@@ -34,7 +37,7 @@ This project demonstrates production-level skills in healthcare data engineering
 - **Lab trajectories** - Patients crossing normal→abnormal thresholds
 - **Risk stratification** - Complexity shifting with chronic condition count
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -97,7 +100,7 @@ FHIR_Pipeline_Project/
 
 All clinical tables have `patient_id` foreign keys with indexes for fast JOINs.
 
-## 📈 Key Findings
+## Findings
 
 - **46.8% polypharmacy rate** - 260 patients on 5+ medications
 - **40% overall 30-day readmission rate**
@@ -105,7 +108,7 @@ All clinical tables have `patient_id` foreign keys with indexes for fast JOINs.
 - **Top condition**: Stress (416 patients, 75% of population)
 - **Most prescribed**: Acetaminophen, Ibuprofen, Amoxicillin
 
-## 🔬 Analytics Functions
+## Analytics Functions
 
 ### Population Health (5 queries)
 - Age-gender distribution
@@ -136,7 +139,7 @@ All clinical tables have `patient_id` foreign keys with indexes for fast JOINs.
 - 30-day readmission analysis
 - Patient complexity scoring (conditions + meds + encounters + abnormal labs)
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3.12** - Core language
 - **Pandas** - Data manipulation
@@ -145,11 +148,11 @@ All clinical tables have `patient_id` foreign keys with indexes for fast JOINs.
 - **Plotly** - Interactive visualizations with animations
 - **Requests** - HTTP downloads
 
-## 📚 Data Source
+## Data Source
 
 Synthetic FHIR R4 data from [Synthea](https://synthetichealth.github.io/synthea/) - realistic but completely artificial patient records for development and testing.
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 
 ### Data Engineering
 ✅ ETL pipeline design and implementation
@@ -176,18 +179,16 @@ Synthetic FHIR R4 data from [Synthea](https://synthetichealth.github.io/synthea/
 ✅ Clinical decision support displays
 ✅ Responsive layouts
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [FHIR Documentation](https://www.hl7.org/fhir/)
 - [Synthea Data Generator](https://github.com/synthetichealth/synthea)
 - [Streamlit Docs](https://docs.streamlit.io/)
 - [Plotly Python](https://plotly.com/python/)
 
-## 📝 License
 
-MIT License - feel free to use for learning, portfolios, or commercial projects.
 
-## 🤝 Contributing
+## Why This project
 
 This is a portfolio/educational project, but suggestions and improvements are welcome! Open an issue or submit a PR.
 
@@ -195,8 +196,6 @@ This is a portfolio/educational project, but suggestions and improvements are we
 
 Built as a demonstration of healthcare data engineering and analytics skills.
 
----
 
-**⚠️ Note**: This project uses synthetic data. No real patient information is included.
 
-**🎯 Perfect for**: Data engineering portfolios, health informatics coursework, learning FHIR standards, SQL practice, dashboard design.
+
